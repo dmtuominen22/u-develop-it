@@ -1,4 +1,4 @@
-NSERT INTO voters
+iNSERT INTO voters
   (first_name, last_name, email)
 VALUES
   ('James', 'Fraser', 'jf@goldenbough.edu'),
