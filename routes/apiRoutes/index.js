@@ -2,10 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 router.use(require('./candidateRoutes'));
-router.use(require('./partyroutes'));
+router.use(require('./partyRoutes'));
+router.use(require('./voterRoutes'));
 
-
-
-
-
-module.expoirts = router;
+module.exports = router;
